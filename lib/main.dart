@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 //hafeez code from github
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -188,6 +189,42 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               const SizedBox(height: 5),
+              Center(
+                child: Container(
+                  width: double.infinity,
+                  height: 20.0,
+                  color: Colors.red,
+                  child: Center(
+                    child: Container(
+                      width: 210.0,
+                      height: 20.0,
+                      color: Colors.orange,
+                      child: Center(
+                        child: Container(
+                          width: 180.0,
+                          height: 20.0,
+                          color: Colors.yellow,
+                          child: Center(
+                            child: Container(
+                              width: 150.0,
+                              height: 20.0,
+                              color: Colors.green,
+                              child: Center(
+                                child: Container(
+                                  width: 112.8,
+                                  height: 20.0,
+                                  color: Colors.blue,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 2),
               AnimatedContainer(
                 alignment: Alignment.center,
                 width: _w,
